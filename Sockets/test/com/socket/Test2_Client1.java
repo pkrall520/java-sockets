@@ -6,6 +6,11 @@ import java.util.concurrent.CountDownLatch;
 
 import org.junit.Test;
 
+/**
+ * Client for Test2
+ * @author Phillip Krall
+ *
+ */
 public class Test2_Client1 {
 	@Test
 	public void client() throws InterruptedException {

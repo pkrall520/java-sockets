@@ -6,10 +6,18 @@ import java.util.concurrent.CountDownLatch;
 
 import org.junit.Test;
 
+/**
+ * Run a simple test to create a server and test that an other application
+ * client can talk with it
+ * 
+ * @author Phillip Krall
+ *
+ */
 public class Test1_Server {
 	/**
 	 * Run this first and then run the test1_client next
-	 * @throws InterruptedException 
+	 * 
+	 * @throws InterruptedException
 	 */
 	@Test
 	public void server() throws InterruptedException {
